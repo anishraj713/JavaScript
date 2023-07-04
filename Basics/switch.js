@@ -1,5 +1,5 @@
 let input;
-input = "n";
+input = "";
 
 switch (input) {
   case 1:
