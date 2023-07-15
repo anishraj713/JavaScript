@@ -72,7 +72,7 @@ console.log(population > 6);
 console.log(population > 66);
 const continent = "Asia",
   country = "India",
-  language = "Hindi";
+  language = "hindi";
 const description =
   country +
   " is in " +
@@ -86,3 +86,46 @@ console.log(description);
 
 // TODO: LECTURE: Strings and Template Literals
 // 1. Recreate the 'description' variable from the last assignment, this time using the template literal syntax
+/*
+const continent = "Asia",
+  country = "India",
+  population = 1402,
+  language = "hindi";
+const description = `${country} is in ${continent}, and its ${population} million people speaks ${language}`;
+console.log(description);
+*/
+// TODO: LECTURE: Taking Decisions: if / else Statements
+/*
+1. If your country's population is greater that 33 million, log a string like this to the
+console: 'Portugal's population is above average'. Otherwise, log a string like
+'Portugal's population is 22 million below average' (the 22 is the average of 33
+minus the country's population)
+2. After checking the result, change the population temporarily to 13 and then to
+130. See the different results, and set the population back to original
+*/
+/*
+const population = 1402;
+if (population >= 33) {
+  console.log("India population is above average");
+} else {
+  console.log(`india population is ${33 - population} million below average`);
+}
+*/
+
+// TODO: LECTURE: Type Conversion and Coercion
+/*
+1. Predict the result of these 5 operations without executing them:
+'9' - '5';
+'19' - '13' + '17';
+'19' - '13' + 17;
+'123' < 57;
+5 + 6 + '4' + 9 - 4 - 2;
+2. Execute the operations to check if you were right
+*/
+/*
+console.log("9" - "5");
+console.log("19" - "13" + "17");
+console.log("19" - "13" + 17);
+console.log("123" < 57);
+console.log(5 + 6 + "4" + 9 - 4 - 2);
+*/
