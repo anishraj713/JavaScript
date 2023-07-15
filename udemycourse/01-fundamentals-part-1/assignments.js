@@ -63,3 +63,26 @@ have less people than the average country?
 which contains a string with this format: 'Portugal is in Europe, and its 11 million
 people speak portuguese'
 */
+/*
+let population = 1402;
+console.log(population / 2);
+population++;
+console.log(population);
+console.log(population > 6);
+console.log(population > 66);
+const continent = "Asia",
+  country = "India",
+  language = "Hindi";
+const description =
+  country +
+  " is in " +
+  continent +
+  ", and its " +
+  population +
+  " million people speak " +
+  language;
+console.log(description);
+*/
+
+// TODO: LECTURE: Strings and Template Literals
+// 1. Recreate the 'description' variable from the last assignment, this time using the template literal syntax
