@@ -22,12 +22,12 @@ country. The variable should hold a Boolean value. Also declare a variable
 to the console
 */
 /*
-let isIndia, language, population, country;
-isIndia = true;
+let isIsland, language, population, country;
+isIsland = false;
 country = "India";
 population = 1406;
 
-console.log(typeof isIndia);
+console.log(typeof isIsland);
 console.log(typeof country);
 console.log(typeof population);
 console.log(typeof language);
@@ -41,10 +41,10 @@ change, and which might change?). Then, change these variables to const.
 3. Try to change one of the changed variables now, and observe what happens
 */
 /*
-const isIndia = true, country = "India",language = "Hindi";
+const isIsland = false, country = "India",language = "Hindi";
 let population = 1406;
 
-console.log(isIndia);
+console.log(isIsland);
 console.log(country);
 console.log(population);
 console.log(language);
@@ -188,4 +188,28 @@ not, log 'Portugal does not meet your criteria :('
 5. Probably your country does not meet all the criteria. So go back and temporarily
 change some variables in order to make the condition true (unless you live in
 Canada :D)
+*/
+/*
+let country, population, isIsland, language;
+country = "India";
+population = 30;
+isIsland = false;
+language = "english";
+
+if (language === "english" && population < 50 && !isIsland) {
+  console.log(`You should live in ${country} :)`);
+} else {
+  console.log(`${country} does not meet your criteria :(`);
+}
+*/
+
+// TODO: LECTURE: The switch Statement
+/*
+Use a switch statement to log the following string for the given 'language':
+chinese or mandarin: 'MOST number of native speakers!'
+spanish: '2nd place in number of native speakers'
+english: '3rd place'
+hindi: 'Number 4'
+arabic: '5th most spoken language'
+for all other simply log 'Great language too :D
 */
