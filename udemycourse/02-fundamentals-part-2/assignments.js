@@ -16,6 +16,4 @@ function describeCountry(country, population, capitalCity) {
 let aboutIndia = describeCountry("india", 1402, "New Delhi");
 let aboutFinland = describeCountry("Finland", 6, "Helsinki");
 let aboutUsa = describeCountry("United States", 333, "Washington, D.C.");
-console.log(aboutIndia);
-console.log(aboutFinland);
-console.log(aboutUsa);
+console.log(aboutIndia, aboutFinland, aboutUsa);
