@@ -253,8 +253,8 @@ let checkAverage =
   population >= 33 ? `${country}'s population is above average`: `${country}'s population is below average`;
 console.log(checkAverage);
 */
-let population = 1402,
-  country = "india";
-console.log(
-  `${country}'s population is ${population > 33 ? "above" : "below"} average`
-);
+// let population = 1402,
+//   country = "india";
+// console.log(
+//   `${country}'s population is ${population > 33 ? "above" : "below"} average`
+// );
