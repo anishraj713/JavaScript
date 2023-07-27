@@ -34,24 +34,26 @@ const age = [
 console.log(age);
 */
 // <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Object>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-const person = {
-  firstName: "Anish",
-  lastName: "Raj",
-  birthYear: 1999,
-  job: "student",
-  hasDriverLicense: false,
-  friends: ["Aman", "Ankit", "Alok"],
-  // calcAge: function () {
-  //   return 2022 - this.birthYear;
-  // },
-  calcAge: function () {
-    this.age = 2022 - this.birthYear;
-    return this.age;
-  },
-  getSummary: function () {
-    return `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and he has ${this.hasDriverLicense ? "a" : "no"} driver's License`;
-  },
-};
+// const person = {
+//   firstName: "Anish",
+//   lastName: "Raj",
+//   birthYear: 1999,
+//   job: "student",
+//   hasDriverLicense: false,
+//   friends: ["Aman", "Ankit", "Alok"],
+
+// Object Method
+//   // calcAge: function () {
+//   //   return 2022 - this.birthYear;
+//   // },
+//   calcAge: function () {
+//     this.age = 2022 - this.birthYear;
+//     return this.age;
+//   },
+//   getSummary: function () {
+//     return `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and he has ${this.hasDriverLicense ? "a" : "no"} driver's License`;
+//   },
+// };
 
 // const friendsList = [0];
 // console.log(person.firstName, person.birthYear, person.friends[1]); //This dot Notation
