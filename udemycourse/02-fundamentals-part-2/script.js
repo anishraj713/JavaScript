@@ -37,11 +37,35 @@ console.log(age);
 const person = {
   firstName: "Anish",
   lastName: "Raj",
-  age: 23,
-  job: "teacher",
+  birthYear: 1999,
+  job: "student",
+  hasDriverLicense: false,
   friends: ["Aman", "Ankit", "Alok"],
+  // calcAge: function () {
+  //   return 2022 - this.birthYear;
+  // },
+  calcAge: function () {
+    this.age = 2022 - this.birthYear;
+    return this.age;
+  },
+  getSummary: function () {
+    return `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and he has ${this.hasDriverLicense ? "a" : "no"} driver's License`;
+  },
 };
 
-const friendsList = [0];
-console.log(person.firstName, person.age, person.friends[1]); //This dot Notation
-console.log(person["firstName"], person["age"], person["friends"]); //This is Bracket Notation
+// const friendsList = [0];
+// console.log(person.firstName, person.birthYear, person.friends[1]); //This dot Notation
+// console.log(person["firstName"], person["birthYear"], person["friends"]); //This is Bracket Notation
+
+// const personDetail = `${person.firstName} has ${person.friends.length} friends, and has best friend is called ${person.friends[0]}`;
+// console.log(personDetail);
+
+// console.log(person.calcAge());
+// console.log(person.age);
+
+// const personDetail2 = `${person.firstName} is a ${person.age}-year old ${
+//   person.job
+// }, and he has ${person.hasDriverLicense ? "a" : "no"} driver's License`;
+// console.log(personDetail2)
+
+// console.log(person.getSummary());
