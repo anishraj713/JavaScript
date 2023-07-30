@@ -71,3 +71,18 @@ console.log(age);
 // console.log(personDetail2)
 
 // console.log(person.getSummary());
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Loop>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// for(let i = 1;i<=5;i++){
+//   console.log("Hello")
+// }
+const friends = ["Tom", "Bi", "john", [1, 2, 3, 4]];
+const types = [];
+for (let i = 0; i < friends.length; i++) {
+  console.log(friends[i], typeof [i]);
+
+  // Fillings types array
+  // types[i] = typeof friends[i];
+  types.push(typeof friends[i]);
+}
+
+console.log(types);
