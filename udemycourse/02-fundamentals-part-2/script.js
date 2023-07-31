@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 // <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Function>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 /*
 // Basic Function
@@ -75,7 +75,7 @@ console.log(age);
 // for(let i = 1;i<=5;i++){
 //   console.log("Hello")
 // }
-const friends = ["Tom", "Bi", "john", 1991, [1, 2, 3, 4]];
+const friends = ['Tom', 'Bi', 'john', 1991, [1, 2, 3, 4]];
 // const types = [];
 // for (let i = 0; i < friends.length; i++) {
 //   console.log(friends[i], typeof [i]);
@@ -105,6 +105,7 @@ if (dice == 6) {
   console.log(`Super bad Luck ${dice}`);
 }
 // while loop
+
 while (dice !== 6) {
   console.log(`dice rolled ${dice}`);
   dice = Math.trunc(Math.random() * 6 + 1);
