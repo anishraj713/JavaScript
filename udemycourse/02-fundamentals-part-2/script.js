@@ -75,14 +75,38 @@ console.log(age);
 // for(let i = 1;i<=5;i++){
 //   console.log("Hello")
 // }
-const friends = ["Tom", "Bi", "john", [1, 2, 3, 4]];
-const types = [];
-for (let i = 0; i < friends.length; i++) {
-  console.log(friends[i], typeof [i]);
+const friends = ["Tom", "Bi", "john", 1991, [1, 2, 3, 4]];
+// const types = [];
+// for (let i = 0; i < friends.length; i++) {
+//   console.log(friends[i], typeof [i]);
+//   // Fillings types array
+//   // types[i] = typeof friends[i];
+//   types.push(typeof friends[i]);
+// }
+// console.log(types);
 
-  // Fillings types array
-  // types[i] = typeof friends[i];
-  types.push(typeof friends[i]);
+// for (let i = 0; i < friends.length; i++) {
+//   if (typeof friends[i] == "object") continue;
+//   console.log(friends[i], typeof friends[i]);
+// }
+// for (let i = 0; i < friends.length; i++) {
+//   if (typeof friends[i] == "number") break;
+//   console.log(friends[i], typeof friends[i]);
+// }
+
+// Looping Backwards
+// console.log(friends.length)
+// for (let i = friends.length - 1; i >= 0; i--) {
+//   console.log(friends[i]);
+// }
+
+let dice = Math.trunc(Math.random() * 6 + 1);
+if (dice == 6) {
+  console.log(`Super bad Luck ${dice}`);
 }
-
-console.log(types);
+// while loop
+while (dice !== 6) {
+  console.log(`dice rolled ${dice}`);
+  dice = Math.trunc(Math.random() * 6 + 1);
+  if (dice == 6) console.log(`bad Luck ${dice}`);
+}
